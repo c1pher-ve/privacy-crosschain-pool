@@ -1,0 +1,17 @@
+{
+  "commitment": {
+    "file": "commitment",
+    "template": "CommitmentHasher",
+    "pubs": ["value", "label"]
+  },
+  "merkleTree": {
+    "file": "merkleTree",
+    "template": "MerkleTreeChecker"
+  },
+  "crossChainBurn": {
+    "file": "crossChainBurn",
+    "template": "CrossChainBurn",
+    "params": [32],
+    "pubs": ["withdrawnValue", "stateRoot", "stateTreeDepth", "ASPRoot", "ASPTreeDepth", "context", "dstChainId"]
+  }
+}
